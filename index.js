@@ -31,10 +31,10 @@ switch(process.platform) {
 		config = require("./platform/linux");
 		break;
 	case "openbsd":
-		config = require("./platform/openbsd");
+		config = require("./platform/linux");
 		break;
 	default:
-		throw new Error("Unknown platform: '" + process.platform + "'.  Send this error to xavi.rmz@gmail.com.");
+		throw new Error("Unknown platform: '" + process.platform + "'.  Please send an issue.");
 }
 
 var noop = function() {};

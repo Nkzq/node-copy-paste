@@ -31,14 +31,13 @@ The easiest way to get node-copy-paste is with [npm](http://npmjs.org/):
 
 Alternatively you can clone this git repository:
 
-	git clone git://github.com/xavi-/node-copy-paste.git
-
-## Future plans
-
-I'm hoping to add various fallbacks for instances when `xclip` or `clip` is not avaiable (see [experimental-fallbacks](https://github.com/xavi-/node-copy-paste/tree/experimental-fallbacks/platform) branch).  Also this library needs to be more thoroughly tested on windows.
+	git clone git@github.com:Nkzq/node-copy-paste.git
 
 ## Developed by
 * Xavi Ramirez
+
+## Updated by
+* Romain Lefort
 
 ## License
 This project is released under [The MIT License](http://www.opensource.org/licenses/mit-license.php).
